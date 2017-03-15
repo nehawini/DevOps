@@ -178,7 +178,9 @@
   <profiles>
 <profile>
 <id>sonar</id>
-<url>http://localhost:9000</url>
+<properties>
+<sonar.host.url>http://localhost:9000</sonar.host.url>
+</properties>
 </profile>
     <profile>
       <id>tomcat90</id>
